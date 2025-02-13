@@ -28,13 +28,13 @@ const Sidebar = () => {
         }}
       >
         <List>
-          <ListItem button>
+          <ListItem button="true">
             <ListItemText primary="Home Page" />
           </ListItem>
-          <ListItem button>
+          <ListItem button="true">
             <ListItemText primary="Transaction log " />
           </ListItem>
-          <ListItem button>
+          <ListItem button="true">
             <ListItemText primary="Customers" />
           </ListItem>
         </List>

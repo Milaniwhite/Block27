@@ -1,7 +1,7 @@
 import React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 
-const TransactionLog = ({ data }) => {
+const TransactionLog = ({ data}) => {
   const columns = [
     { field: 'id', headerName: 'ID', width: 90 },
     { field: 'item', headerName: 'Item', width: 150 },

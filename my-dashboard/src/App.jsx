@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import TransactionLog from './components/TransactionLog';
 import { Grid } from '@mui/material';
-import data from './path/to/your/data.json'; 
+import {data} from './components/data.js'
 
 const DashboardLayout = () => {
   return (
